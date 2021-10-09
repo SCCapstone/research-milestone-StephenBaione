@@ -8,6 +8,7 @@ from src.db.database import SessionLocal, engine
 
 # -------- Router Imports --------
 from src.routes.authentication import authentication_router
+from src.routes.blockchair import blockchair_router
 
 # -------- Create database tables --------
 UserBase.metadata.create_all(bind=engine)
@@ -31,6 +32,7 @@ app.add_middleware(
 
 # -------- Router Include --------
 app.include_router(authentication_router)
+app.include_router(blockchair_router)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
