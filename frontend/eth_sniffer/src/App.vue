@@ -14,6 +14,7 @@
           transition="scale-transition"
           width="40"
         />
+        
 
         <v-img
           alt="Vuetify Name"

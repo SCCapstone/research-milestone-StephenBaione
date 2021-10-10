@@ -1,29 +1,21 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar
-      app
-      shrink-on-scroll
-    >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+    <v-container>
+      <section class="search-result">
+        <nft-search ref="nftSearch" @getAsset="newAsset($event)"></nft-search>
+      </section>
 
-      <v-toolbar-title>Application</v-toolbar-title>
+      <section class="watchlist">
+        <h1>Search Result:</h1>
+        <nft-display v-if="nft" :nft="nft"></nft-display>
+        <watch-list></watch-list>
+      </section>
 
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-app-bar>
-
-    <section class="watchlist">
-      <h1>My Watchlist:</h1>
-      <watch-list></watch-list>
-    </section>
-
-    <section class="assets">
-      <h1>All of Our Assets:</h1>
-      <asset-display-layout :assetDisplays="this.assetDisplays"></asset-display-layout>
-    </section>
+      <section class="assets">
+        <h1>All of Our Assets:</h1>
+        <asset-display-layout :assetDisplays="this.assetDisplays"></asset-display-layout>
+      </section>
+    </v-container>
   </v-app>
 </template>
 
@@ -32,6 +24,8 @@
   import WatchList from '../components/WatchList.vue';
   import AssetDisplay from '../components/AssetDisplay.vue';
   import AssetDisplayLayout from '../components/AssetDisplayLayout.vue';
+  import NftSearch from '../components/NftSearch.vue';
+  import NftDisplay from '../components/NftDisplay.vue';
 
   export default {
     name: 'Home',
@@ -40,7 +34,9 @@
       HelloWorld,
       AssetDisplay,
       AssetDisplayLayout,
-      WatchList
+      WatchList,
+      NftSearch,
+      NftDisplay
     },
     data() {
       return {
@@ -51,7 +47,13 @@
           { "name": 'Binance', "marketPrice": 47.65, 'averageTransactionFee': 3, 'marketPriceUsd': 3, 'marketCapUsd': 3, 'inflationUsd': -0.2258},
           { "name": 'Dogecoin', "marketPrice": 47.65, 'averageTransactionFee': 3, 'marketPriceUsd': 3, 'marketCapUsd': 3, 'inflationUsd': 0.2258},
           { "name": 'USD-Coin', "marketPrice": 47.65, 'averageTransactionFee': 3, 'marketPriceUsd': 3, 'marketCapUsd': 3, 'inflationUsd': -0.2258}
-        ]
+        ],
+        'nft': null
+        }
+      },
+    methods: {
+      newAsset (nft_data) {
+        this.nft = nft_data["data"];
       }
     },
   }

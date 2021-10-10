@@ -34,16 +34,18 @@ class BlockChairService():
 
     async def get_erc20_contract_stats(self, token_address: str):
         endpoint = f"/ethereum/erc-20/{token_address}/stats"
-        data = (await self.make_request("get", endpoint))["data"]
-        return data
-
-    async def get_erc721_contract_stats(self, token_address: str):
-        endpoint = f"/ethereum/addresses"
         params = {
-            "address": token_address,
-            "limit": 100
+            "limit": 50
         }
         data = (await self.make_request("get", endpoint, params))["data"]
+        return data
+
+    async def get_erc721_contract_stats(self, token_address: str, limit = 50):
+        endpoint = f"/ethereum/erc-721/{token_address}"
+        params = {
+            "limit": 50
+        }
+        data = (await self.make_request("get", "https://api.blockchair.com/ethereum/dashboards/address/0x139b522955d54482e7662927653abb0bfb6f19ba?erc_20=precise&erc_721=true&assets_in_usd=true&contract_details=true&transactions_instead_of_calls=true"))["data"]
         return data
     
     async def make_request(self, method: str, endpoint: str, params: dict = None, body: dict = None, json: dict = None):

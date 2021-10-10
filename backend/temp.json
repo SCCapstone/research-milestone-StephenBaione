@@ -1,0 +1,222 @@
+{
+    "id": 26304317,
+    "token_id": "6639",
+    "num_sales": 0,
+    "background_color": null,
+    "image_url": "https://lh3.googleusercontent.com/mrFM46CCAJr1ZKWDwOzgy3Kw8WGW8QubF9hU1DHz5INRWKe2wsJ6LEntQzt_CIPLqiuCo1hYP4Ym5W9VUXwMpTVLIogeGOHcmNtnBA",
+    "image_preview_url": "https://lh3.googleusercontent.com/mrFM46CCAJr1ZKWDwOzgy3Kw8WGW8QubF9hU1DHz5INRWKe2wsJ6LEntQzt_CIPLqiuCo1hYP4Ym5W9VUXwMpTVLIogeGOHcmNtnBA=s250",
+    "image_thumbnail_url": "https://lh3.googleusercontent.com/mrFM46CCAJr1ZKWDwOzgy3Kw8WGW8QubF9hU1DHz5INRWKe2wsJ6LEntQzt_CIPLqiuCo1hYP4Ym5W9VUXwMpTVLIogeGOHcmNtnBA=s128",
+    "image_original_url": "https://lameloball.io/metadata/images/Red-Mars.jpg",
+    "animation_url": "https://storage.opensea.io/files/8ec9e5cb59a712c2d12dc1794f127ec3.mp4",
+    "animation_original_url": "https://ether-cards.mypinata.cloud/ipfs/Qmdf46hp3qiyn9XskzJgeB5WsSMqWNVa2eM96otK5neoGq/Mars.mp4",
+    "name": "LaMelo Ball Collectibles, Type: Red Mars, ID:6639",
+    "description": "LaMelo Ball Collectibles contain supercharged NFTs tethered to NBA phenom LaMelo Ball’s statistics, awards, and highlights. Owners of the NFTs will be entered into verifiably random draws to win never-before-seen memorabilia, participate in Melo’s endorsement deals, and unlock VIP access to an exclusive chat group with Melo himself.",
+    "external_link": "https://lameloball.io/#/",
+    "asset_contract": {
+      "address": "0x139b522955d54482e7662927653abb0bfb6f19ba",
+      "asset_contract_type": "non-fungible",
+      "created_date": "2021-06-04T17:48:10.673991",
+      "name": "LaMelo Ball Collectibles",
+      "nft_version": "3.0",
+      "opensea_version": null,
+      "owner": 36870908,
+      "schema_name": "ERC721",
+      "symbol": "LBC",
+      "total_supply": "4",
+      "description": "LaMelo Ball Collectibles contain supercharged NFTs tethered to NBA phenom LaMelo Ball’s statistics, awards, and highlights. Owners of the NFTs will be entered into verifiably random draws to win never-before-seen memorabilia, participate in Melo’s endorsement deals, and unlock VIP access to an exclusive chat group with Melo himself.",
+      "external_link": "https://lameloball.io/",
+      "image_url": "https://lh3.googleusercontent.com/K1xby31C2iEUKBVoI4rTqWGiWcvLxCUB0iZdE5H79YCjfZ0rArH_p0-4RY59DewbfguDtlVtaz6WGt4_w82igb40CnPpfNdk_zlm=s120",
+      "default_to_fiat": false,
+      "dev_buyer_fee_basis_points": 0,
+      "dev_seller_fee_basis_points": 1000,
+      "only_proxied_transfers": false,
+      "opensea_buyer_fee_basis_points": 0,
+      "opensea_seller_fee_basis_points": 250,
+      "buyer_fee_basis_points": 0,
+      "seller_fee_basis_points": 1250,
+      "payout_address": "0xaeca29502d9260439e009083f45cc2d9f1fa1267"
+    },
+    "permalink": "https://opensea.io/assets/0x139b522955d54482e7662927653abb0bfb6f19ba/6639",
+    "collection": {
+      "payment_tokens": [
+        {
+          "id": 13689077,
+          "symbol": "ETH",
+          "address": "0x0000000000000000000000000000000000000000",
+          "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
+          "name": "Ether",
+          "decimals": 18,
+          "eth_price": 1,
+          "usd_price": 3551.04
+        },
+        {
+          "id": 12182941,
+          "symbol": "DAI",
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "image_url": "https://storage.opensea.io/files/8ef8fb3fe707f693e57cdbfea130c24c.svg",
+          "name": "Dai Stablecoin",
+          "decimals": 18,
+          "eth_price": 0.00028169,
+          "usd_price": 1
+        },
+        {
+          "id": 4645681,
+          "symbol": "WETH",
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "image_url": "https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg",
+          "name": "Wrapped Ether",
+          "decimals": 18,
+          "eth_price": 1,
+          "usd_price": 3551.04
+        },
+        {
+          "id": 4403908,
+          "symbol": "USDC",
+          "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "image_url": "https://storage.opensea.io/files/749015f009a66abcb3bbb3502ae2f1ce.svg",
+          "name": "USD Coin",
+          "decimals": 6,
+          "eth_price": 0.000551436563967,
+          "usd_price": 1
+        }
+      ],
+      "primary_asset_contracts": [
+        {
+          "address": "0x139b522955d54482e7662927653abb0bfb6f19ba",
+          "asset_contract_type": "non-fungible",
+          "created_date": "2021-06-04T17:48:10.673991",
+          "name": "LaMelo Ball Collectibles",
+          "nft_version": "3.0",
+          "opensea_version": null,
+          "owner": 36870908,
+          "schema_name": "ERC721",
+          "symbol": "LBC",
+          "total_supply": "4",
+          "description": "LaMelo Ball Collectibles contain supercharged NFTs tethered to NBA phenom LaMelo Ball’s statistics, awards, and highlights. Owners of the NFTs will be entered into verifiably random draws to win never-before-seen memorabilia, participate in Melo’s endorsement deals, and unlock VIP access to an exclusive chat group with Melo himself.",
+          "external_link": "https://lameloball.io/",
+          "image_url": "https://lh3.googleusercontent.com/K1xby31C2iEUKBVoI4rTqWGiWcvLxCUB0iZdE5H79YCjfZ0rArH_p0-4RY59DewbfguDtlVtaz6WGt4_w82igb40CnPpfNdk_zlm=s120",
+          "default_to_fiat": false,
+          "dev_buyer_fee_basis_points": 0,
+          "dev_seller_fee_basis_points": 1000,
+          "only_proxied_transfers": false,
+          "opensea_buyer_fee_basis_points": 0,
+          "opensea_seller_fee_basis_points": 250,
+          "buyer_fee_basis_points": 0,
+          "seller_fee_basis_points": 1250,
+          "payout_address": "0xaeca29502d9260439e009083f45cc2d9f1fa1267"
+        }
+      ],
+      "traits": {},
+      "stats": {
+        "one_day_volume": 5.1924,
+        "one_day_change": -0.14118425405226598,
+        "one_day_sales": 51,
+        "one_day_average_price": 0.10181176470588235,
+        "seven_day_volume": 19.7724,
+        "seven_day_change": 16.408346539883784,
+        "seven_day_sales": 68,
+        "seven_day_average_price": 0.2907705882352941,
+        "thirty_day_volume": 32.4969273346426,
+        "thirty_day_change": -0.6864483366452079,
+        "thirty_day_sales": 186,
+        "thirty_day_average_price": 0.17471466308947634,
+        "total_volume": 203.777826672335,
+        "total_sales": 1345,
+        "total_supply": 8066,
+        "count": 8066,
+        "num_owners": 2719,
+        "average_price": 0.1515076778232974,
+        "num_reports": 4,
+        "market_cap": 2345.3555647058824,
+        "floor_price": 0.04
+      },
+      "banner_image_url": "https://lh3.googleusercontent.com/njruFl2pLCJZz7-tG_5_UiNl5be7WDh0IJFcn5ghlSOAJ_oG2QSF62mjrJbuFVABWabaIb8-VlNrnB2KbLuBB7wuxV6cZqZZd2ij=s2500",
+      "chat_url": null,
+      "created_date": "2021-06-04T17:48:11.434902",
+      "default_to_fiat": false,
+      "description": "LaMelo Ball Collectibles contain supercharged NFTs tethered to NBA phenom LaMelo Ball’s statistics, awards, and highlights. Owners of the NFTs will be entered into verifiably random draws to win never-before-seen memorabilia, participate in Melo’s endorsement deals, and unlock VIP access to an exclusive chat group with Melo himself.",
+      "dev_buyer_fee_basis_points": "0",
+      "dev_seller_fee_basis_points": "1000",
+      "discord_url": "https://discord.gg/lameloball",
+      "display_data": {
+        "card_display_style": "cover"
+      },
+      "external_url": "https://lameloball.io/",
+      "featured": false,
+      "featured_image_url": "https://lh3.googleusercontent.com/v3emzngrNPzN9N4UgCYEzA4XgIaJqEGU4YaSe7JB2_3t8ARCPP7TyEDl32jZZHMKtzf_hWYlBaHZ9o5nYkd_fiYKsQgWmCkrk5jjaQ=s300",
+      "hidden": false,
+      "safelist_request_status": "verified",
+      "image_url": "https://lh3.googleusercontent.com/K1xby31C2iEUKBVoI4rTqWGiWcvLxCUB0iZdE5H79YCjfZ0rArH_p0-4RY59DewbfguDtlVtaz6WGt4_w82igb40CnPpfNdk_zlm=s120",
+      "is_subject_to_whitelist": false,
+      "large_image_url": "https://lh3.googleusercontent.com/v3emzngrNPzN9N4UgCYEzA4XgIaJqEGU4YaSe7JB2_3t8ARCPP7TyEDl32jZZHMKtzf_hWYlBaHZ9o5nYkd_fiYKsQgWmCkrk5jjaQ=s300",
+      "medium_username": null,
+      "name": "LaMelo Ball Collectibles",
+      "only_proxied_transfers": false,
+      "opensea_buyer_fee_basis_points": "0",
+      "opensea_seller_fee_basis_points": "250",
+      "payout_address": "0xaeca29502d9260439e009083f45cc2d9f1fa1267",
+      "require_email": false,
+      "short_description": null,
+      "slug": "lamelo-ball-collectibles",
+      "telegram_url": null,
+      "twitter_username": "nftplayground",
+      "instagram_username": "melo",
+      "wiki_url": null
+    },
+    "decimals": 0,
+    "token_metadata": "https://lameloball.io/metadata/39/6639.json",
+    "owner": {
+      "user": {
+        "username": "mist3rrobot"
+      },
+      "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+      "address": "0xc71ea3213dfd0b86fba53d50bf573a14b7b7beb6",
+      "config": ""
+    },
+    "sell_orders": null,
+    "creator": {
+      "user": {
+        "username": null
+      },
+      "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/8.png",
+      "address": "0xd25f03bdc4727b43bf09ace9cf25c5dea21d1532",
+      "config": ""
+    },
+    "traits": [
+      {
+        "trait_type": "series",
+        "value": "Red Mars",
+        "display_type": null,
+        "max_value": null,
+        "trait_count": 6497,
+        "order": null
+      }
+    ],
+    "last_sale": null,
+    "top_bid": null,
+    "listing_date": null,
+    "is_presale": false,
+    "transfer_fee_payment_token": null,
+    "transfer_fee": null,
+    "related_assets": [],
+    "orders": [],
+    "auctions": [],
+    "supports_wyvern": true,
+    "top_ownerships": [
+      {
+        "owner": {
+          "user": {
+            "username": "mist3rrobot"
+          },
+          "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
+          "address": "0xc71ea3213dfd0b86fba53d50bf573a14b7b7beb6",
+          "config": ""
+        },
+        "quantity": "1"
+      }
+    ],
+    "ownership": null,
+    "highest_buyer_commitment": null
+  }
+
+  
