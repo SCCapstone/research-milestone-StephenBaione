@@ -18,8 +18,8 @@ app = FastAPI()
 # -------- Origins --------
 # White-list front end url
 origins = [
-    "http://localhost:8100",
-    "http://127.0.0.1:8000"
+    "http://localhost:8080",
+    "http://172.20.1.120:8080"
 ]
 
 app.add_middleware(

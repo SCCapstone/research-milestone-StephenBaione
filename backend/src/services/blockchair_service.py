@@ -12,6 +12,16 @@ class BlockChairService():
         # TODO:// Secure this in production
         self.api_key = "G___fugCRxWaoY5t04thDGYKndytAnjJ"
         self.base_url = "https://api.blockchair.com"
+        self.classifications = {
+            "bitcoin": ["bitcoin", "dogecoin"],
+            "ethereum": ["ethereum"],
+            "crosschain": ["tether", "usd-coin", "binance-usd"]
+        }
+
+    async def get_all_stats(self) -> dict:
+        endpoint = "/stats"
+        data = (await self.make_request("get", endpoint))["data"]
+        return data
 
     async def get_eth_stats(self) -> dict:
         endpoint = "/ethereum/stats"

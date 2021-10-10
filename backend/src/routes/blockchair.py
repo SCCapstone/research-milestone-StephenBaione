@@ -7,6 +7,13 @@ blockchair_service = BlockChairService()
 
 @blockchair_router.get("/stats")
 async def get_blockchair_stats():
+    results = await blockchair_service.get_all_stats()
+    return {
+        "data": results
+    }
+
+@blockchair_router.get("/ethereum/stats")
+async def get_blockchair_stats():
     results = await blockchair_service.get_eth_stats()
     return {
         "data": results
