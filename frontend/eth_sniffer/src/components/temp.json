@@ -1,0 +1,23 @@
+{
+    "one_day_volume": 0.98,
+    "one_day_change": 0.1694510739856802,
+    "one_day_sales": 16,
+    "one_day_average_price": 0.06125,
+    "seven_day_volume": 5.1235,
+    "seven_day_change": -0.27515420745854785,
+    "seven_day_sales": 87,
+    "seven_day_average_price": 0.05889080459770115,
+    "thirty_day_volume": 31.0787410955302,
+    "thirty_day_change": -0.5240366391197507,
+    "thirty_day_sales": 529,
+    "thirty_day_average_price": 0.05874998316735388,
+    "total_volume": 106.460240048838,
+    "total_sales": 1764,
+    "total_supply": 8386,
+    "count": 8386,
+    "num_owners": 1303,
+    "average_price": 0.06035161000501021,
+    "num_reports": 3,
+    "market_cap": 493.85828735632185,
+    "floor_price": 0.05
+}

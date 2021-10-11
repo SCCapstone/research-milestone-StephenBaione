@@ -37,20 +37,26 @@ class BlockChairService():
         params = {
             "limit": 50
         }
-        data = (await self.make_request("get", endpoint, params))["data"]
+        data = (await self.make_request("get", endpoint, params)).get("data", None)
         return data
 
     async def get_erc721_contract_stats(self, token_address: str, limit = 50):
-        endpoint = f"/ethereum/erc-721/{token_address}"
+        endpoint = f"/ethereum/dashboards/address/{token_address}"
+
         params = {
-            "limit": 50
+            "limit": 50,
+            'erc_20': 'precise',
+            'erc_721': 'true',
+            'assets_in_usd': 'true',
+            'contract_details': 'true',
+            'transactions_instead_of_calls': 'true'
         }
-        data = (await self.make_request("get", "https://api.blockchair.com/ethereum/dashboards/address/0x139b522955d54482e7662927653abb0bfb6f19ba?erc_20=precise&erc_721=true&assets_in_usd=true&contract_details=true&transactions_instead_of_calls=true"))["data"]
+        data = (await self.make_request("get", endpoint=endpoint, params=params)).get("data", None)
         return data
     
     async def make_request(self, method: str, endpoint: str, params: dict = None, body: dict = None, json: dict = None):
         if method.lower() == "get":
-            async with httpx.AsyncClient(base_url=self.base_url) as client:
+            async with httpx.AsyncClient(base_url=self.base_url, timeout=60.0) as client:
                 req_options = {"method": "get", "url": endpoint}
                 if params:
                     req_options.update({"params": params})
